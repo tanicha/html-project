@@ -69,6 +69,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom: 4%;
 }
 
 .quotes {
@@ -146,6 +147,7 @@ body {
   padding: 40px;
   height: 960px;
   margin-bottom: 1%;
+  margin-top: 5%;
 }
 
 #pic {
@@ -173,7 +175,7 @@ body {
   text-align: justify;
   padding: 10px;
   text-align: center;
-  width: 60%;
+  width: 50%;
   height: 40%;
   font-family: monospace;
   font-size: 15px;
@@ -182,13 +184,14 @@ body {
 
 div #intro {
   position: relative;
-  left: 36%;
+  left: 42%;
   bottom: 500px;
 }
 
 #intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .places {
@@ -211,7 +214,8 @@ div #intro {
   background-color: black;
   color: black;
   height: 960px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  margin-top: 5%;
 }
 
 .row {
