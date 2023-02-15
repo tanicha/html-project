@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 /* navigation bar */
 
 .navbar {
@@ -11,7 +15,7 @@
   justify-content: center;
   background-color: white;
   position: sticky;
-  top: 0;
+  top: 0; 
 }
 
 .navbar ul {
@@ -61,7 +65,7 @@
   display: flex;
   flex-direction: column;
   background-color: black;
-  height: 1000px;
+  height: 960px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -70,10 +74,9 @@
 .quotes {
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
   align-items: left;
   position: absolute;
-  top: 5.2%;
+  top: 5%;
   height: 7.5rem;
   font-family: monospace;
 }
@@ -100,7 +103,6 @@
   font-size: 17px;
   font-weight: bold;
   color: white;
-  border: 2px solid black;
   margin: 55px 80px;
   text-align: center;
 }
@@ -129,6 +131,11 @@
   color: white;
 }
 
+#test{
+  padding-top: 35px;
+  margin-top: 0.5%;
+}
+
 /* about me / bio page */
 
 #about {
@@ -136,8 +143,9 @@
   flex-direction: column;
   background-color: black;
   box-sizing: border-box;
-  padding: 20px;
-  margin-bottom: 80px;
+  padding: 40px;
+  height: 960px;
+  margin-bottom: 1%;
 }
 
 #pic {
@@ -147,8 +155,8 @@
 }
 
 #pic img {
-  width: 400px;
-  height: 600px;
+  width: 390px;
+  height: 590px;
   border: 5px solid whitesmoke;
   border-radius: 3%;
   margin-left: 145px;
@@ -165,8 +173,8 @@
   text-align: justify;
   padding: 10px;
   text-align: center;
-  width: 50%;
-  height: 20%;
+  width: 60%;
+  height: 40%;
   font-family: monospace;
   font-size: 15px;
   color: white;
@@ -174,7 +182,7 @@
 
 div #intro {
   position: relative;
-  left: 40%;
+  left: 36%;
   bottom: 500px;
 }
 
@@ -199,10 +207,11 @@ div #intro {
 #experience {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px;
   background-color: black;
   color: black;
-  height: 1000px;
+  height: 960px;
+  margin-bottom: 2%;
 }
 
 .row {
@@ -301,13 +310,14 @@ div #intro {
 /* portfolio page */
 
 #portfolio {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: black;
   color: white;
-  align-items: center;
-  padding: 20px;
-  height: 1000px;
+  padding: 40px;
+  height: 960px;
+  margin-top: 80px;
 }
 
 .gallery {
@@ -322,4 +332,24 @@ div #intro {
   height: 240px;
   margin: 10px;
   border: 2px solid white;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.text:active {
+  color: white;
+}
+
+hr {
+  border: 1px solid white;
+  width: 25%;
+  margin-left: 37%;
 }
