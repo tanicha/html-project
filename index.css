@@ -126,6 +126,7 @@
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
+  color: white;
 }
 
 /* about me / bio page */
@@ -133,7 +134,7 @@
 #about {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: black;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 80px;
@@ -148,13 +149,13 @@
 #pic img {
   width: 400px;
   height: 600px;
-  border: 7px solid black;
+  border: 5px solid whitesmoke;
   border-radius: 3%;
   margin-left: 145px;
 }
 
 #h2 {
-  color: black;
+  color: white;
 }
 
 #intro {
@@ -168,6 +169,7 @@
   height: 20%;
   font-family: monospace;
   font-size: 15px;
+  color: white;
 }
 
 div #intro {
@@ -183,7 +185,13 @@ div #intro {
 
 .places {
   text-align: left;
-  margin-left: 25%;
+  margin-left: 12%;
+  margin-top: -5px;
+  padding-left: 15px;
+}
+
+#visit {
+  margin: 50px 60px 10px;
 }
 
 /* experience page */
@@ -217,11 +225,6 @@ div #intro {
   border-radius: 15px;
   background-color: white;
   background-size: 100% 200%;
-}
-
-.box:hover {
-  background-position: left bottom;
-  border: none;
 }
 
 #experiences {
@@ -262,20 +265,37 @@ div #intro {
 .joblinks {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: baseline;
   color: white;
   font-size: 25px;
   width: 80%;
-  margin-left:220px;
+  margin-left: 100px;
+  border: 2px solid white
 }
 
-.joblinks a{ 
-  color: white; 
+#joblink1 a{ 
+  color: black; 
 }
 
-.joblinks a:hover { 
-  color: gray; 
+#joblink1 a:hover { 
+  color: red; 
+}
+
+#joblink2 a{ 
+  color: black; 
+}
+
+#joblink2 a:hover { 
+  color: blue; 
+}
+
+#joblink3 a{ 
+  color: black; 
+}
+
+#joblink3 a:hover { 
+  color: green; 
 }
 
 /* portfolio page */
@@ -287,6 +307,7 @@ div #intro {
   color: white;
   align-items: center;
   padding: 20px;
+  height: 1000px;
 }
 
 .gallery {
@@ -300,4 +321,5 @@ div #intro {
   width: 360px;
   height: 240px;
   margin: 10px;
+  border: 2px solid white;
 }
