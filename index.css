@@ -361,3 +361,24 @@ hr {
   width: 25%;
   margin-left: 37%;
 }
+
+#github{
+  text-align: center;
+  margin: 7em;
+}
+
+#github a{
+  color: white;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+#github a:active {
+  color: white;
+}
+
+#github a:hover{
+  color: #a45eea;
+  font-family: monospace;
+  margin-bottom: -1em;
+}
